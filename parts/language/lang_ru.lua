@@ -310,7 +310,7 @@ return {
         "",
         "Дизайн, UI и UX",
         "MrZ",
-        "Gnyar",
+        "Zozy",
         "C₂₉H₂₅N₃O₅",
         "ScF",
         "(旋律星萤)",

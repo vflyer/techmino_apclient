@@ -201,7 +201,7 @@ Z.setDebugInfo{
     {"Cache", gcinfo},
     {"Tasks", TASK.getCount},
     {"Voices",VOC.getQueueCount},
-    {"Audios",love.audio.getSourceCount},
+    {"Audios",(love.audio and (love.audio.getActiveSourceCount or love.audio.getSourceCount)) or function() return 0 end},
 }
 do -- Z.setOnFocus
     local function task_autoSoundOff()
